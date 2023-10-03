@@ -1,0 +1,36 @@
+h1{
+	background-color: red;
+	font-size: 25;
+	text-align: center;
+}
+
+
+
+body{
+
+	font-size: 50;
+	font-family: Verdana;
+
+}
+
+legend{
+	background-color: yellow;
+	text-align: center;
+
+}
+
+button{
+
+	background-color: yellow;
+}
+
+.c1{
+
+	color:green;
+}
+
+.c2{
+
+color:red;
+}
+
