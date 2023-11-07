@@ -20,5 +20,10 @@ function facture(){
     var m=Number(j)+Number(k)+Number(l);
 
 t10.value=m;
-    
+
+  
+}
+
+function re(){
+    window.location.reload();
 }
