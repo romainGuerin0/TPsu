@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Index</title>
+    <title>Menu responsive déroulant HTML / CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="mission3.css">
 </head>
-<font color="red">
-<h1><u><center> Sommaire </center></u></h1>
-</font>
-
 <body>
-	<ol>
-<li><h2><a href="page1.html"> Page d'accueil </a></h2></li>
-<li><h2><a href="page2.html"> page 2 </a></h2></li>
-<li><h2><a href="page3.html"> Liste des articles </a></h2></li>
-<li><h2><a href="login.html"> identification </a></h2></li>
-<li><h2><a href="formulaires.html"> formulaire </a></h2></li>
-<li><h2><a href="exoformulaire.html"> exercice formulaire </a></h2></li>
-<li><h2><a href="mission3correction.html"> exercice formulaire </a></h2></li>
-<li><h2><a href="mission3.html"target="f2"> mission 3 </a></h2></li>
-<li><h2><a href="mission3correction.html"target="f2"> correction </a></h2></li>
-<li><h2><a href="cv.html"target="f2"> mission2 </a></h2></li>
-<li><h2><a href="tp6.html"target="f2"> tp7 avec du java </a></h2></li>
-<li><h2><a href="facture.html"target="f2"> facture </a></h2></li>
+    <nav>
+    <label for="menu-mobile" class="menu-mobile">Menu</label>
+    <input type="checkbox" id="menu-mobile" role="button">
+     <ul>
 
+        <li class="menu-html"><a href="#">HTML et CSS</a>
 
-</ol>
+            <ul class="submenu">
+                <li><a href="page1.html">page d'accueil</a>
+                </li> <li><a href="page2.html">page 2</a>
+                </li> <li><a href="page3.html">Liste des articles</a>
+                </li> <li><a href="login.html">identification</a></li>
+                </li> <li><a href="formulaire.html">formulaire</a></li>
+                </li> <li><a href="exoformulaire.html">exercice formulaire</a></li>
+            </li> <li><a href="TP6_1.html">TP 6</a></li>
+            
+            </ul>
+        </li>
+        <li class="menu-js"><a href="#">JavaScript</a>
+            <ul class="submenu">
+                <li><a href="#">Cours JavaScript</a>
+                </li> <li><a href="#">Fonctions JavaScript</a>
+                </li> <li><a href="#">Le DOM</a></li>
+                <li><a href="#">Exercices</a></li>
+            </ul>
+        </li>
+        <li class="menu-bdd"><a href="#">Base de Données</a>
+            <ul class="submenu">
+               <li><a href="tp6.html">TP 7 avec du java </a>
+               </li> <li><a href="facture.html">facture </a>
+               </li> <li><a href="Calculatrice.html">Calculatrice </a>
+               </li> <li><a href="tableau">Tableau</a></li>
+           </ul>
+       </li>
+       <li class="menu-PHP"><a href="#">PHP</a>
+        <ul class="submenu">
+       </ul>
+   </li>
+   <li class="menu-mission"><a href="#">Mission</a>
+    <ul class="submenu">
+        </li> <li><a href="mission3correction.html">correction mission 3</a></li>
+       </li> <li><a href="cv.html">mission 2 </a>
+   </ul>
+</li>
+<li class="menu-cert"><a href="#">Certifications</a>
+    <ul class="submenu">
+       <li><a href="certification.html">Certifications</a>
+   </ul>
+</li>
 
-
+        <li class="menu-contact"><a href="#">Contact</a></li>
+    </ul>
+</nav>
 </body>
 </html>
